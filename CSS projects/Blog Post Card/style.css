@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Post Card</title>
-</head>
-<body>
+body {
+    background-color: #c1c8d6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+.blog-post-card {
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.post-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 4px solid #4f46e5;
+}
+.post-content {
+    padding: 25px;
+}
 
-</body>
-</html>
+.post-title {
+    color: #1e293b;
+    margin: 15px 0;
+}
+.post-excerpt {
+    color: #64748b;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+.read-more {
+    color: white;
+    background-color: #4f46e5;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+.read-more:hover {
+    background-color: #3730a3;
+}
+
