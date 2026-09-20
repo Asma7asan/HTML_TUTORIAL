@@ -1,0 +1,45 @@
+body{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 80vw; 
+  min-height: calc(100vh - 100px);
+  background-color: rgb(148, 162, 166);
+}
+hr{
+  margin: 5px auto;
+  width: 80%;
+  background-color: black;
+  height: 2px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+h1{
+  text-align: center;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.s1 {
+  text-align: center;  
+  padding: 50px 1px;
+  vertical-align: top;
+  display: inline-block;
+  min-height: 100px;
+  width: 45%;
+}
+.s2 {
+  text-align: center;
+  padding: 50px 1px;
+  vertical-align: top;
+  display: inline-block;
+  min-height: 100px;
+  width: 45%;
+}
