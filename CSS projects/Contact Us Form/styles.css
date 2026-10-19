@@ -1,0 +1,36 @@
+.form-container{
+  display: block;
+  width: 80vw;
+  background-color: rgb(177, 214, 158);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 3px auto;
+  padding-bottom: 1em;
+}
+
+h2{
+  text-align: center;
+}
+
+label{
+  display: block;
+  margin:  5px auto;
+  color: rgb(20, 19, 19);
+}
+input, textarea{
+  width: 70vw;
+  padding: 5px;
+  margin: 0 0 5px 0;
+}
+button{
+  background-color: rgb(149, 189, 129);
+  border: 1px solid rgb(120, 109, 109);
+  Font-size: 1.1rem;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+button:hover{
+  background-color: rgb(67, 97, 48);
+}
